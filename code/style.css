@@ -14,8 +14,7 @@
     --fond:         #faf6f2;
 }
 
-html, body, [class*="css"] { color: var(--marron-nuit); font-size: 24px; }
-p, span, label, div { font-size: 1.15rem; }
+html, body, [class*="css"] { color: var(--marron-nuit); font-size: 16px; }
 
 /* ---------- Largeur de page : pleine largeur ---------- */
 [data-testid="stAppViewContainer"] .main .block-container {
@@ -38,7 +37,7 @@ p, span, label, div { font-size: 1.15rem; }
     margin-bottom: 28px;
 }
 .entete h1 {
-    font-size: 34px;
+    font-size: 26px;
     font-weight: 600;
     color: var(--blanc);
     margin: 0;
@@ -63,7 +62,7 @@ div[data-testid="stVerticalBlockBorderWrapper"] {
     border-radius: 6px !important;
 }
 [data-testid="stImage"] img { border-radius: 5px 5px 0 0; }
-.legende-etape { font-size: 22px; color: var(--ardoise); padding-top: 6px; }
+.legende-etape { font-size: 15px; color: var(--ardoise); padding-top: 6px; }
 
 /* ---------- Bouton (.btn-lancer) ---------- */
 button[kind="primary"] {
@@ -86,7 +85,7 @@ button[kind="primary"]:hover {
     padding: 24px 28px;
 }
 .resultat-label {
-    font-size: 22px;
+    font-size: 15px;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -95,15 +94,15 @@ button[kind="primary"]:hover {
 }
 .plaque-lue {
     font-family: "Courier New", monospace;
-    font-size: 72px;
+    font-size: 44px;
     font-weight: 700;
     color: var(--marron-fonce);
-    letter-spacing: 7px;
+    letter-spacing: 5px;
 }
-.plaque-lue.vide { color: var(--marron-bord); font-size: 30px; letter-spacing: 1px; }
+.plaque-lue.vide { color: var(--marron-bord); font-size: 20px; letter-spacing: 1px; }
 
 .statut-discret {
-    font-size: 20px;
+    font-size: 14px;
     color: var(--ardoise);
     margin-top: 14px;
 }

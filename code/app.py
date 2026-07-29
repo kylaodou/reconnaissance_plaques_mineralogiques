@@ -72,7 +72,7 @@ if fichier_televerse is not None:
     octets = np.frombuffer(fichier_televerse.getvalue(), np.uint8)
     image_bgr = cv2.imdecode(octets, cv2.IMREAD_COLOR)
     nom_source = fichier_televerse.name
-    st.image(bgr_vers_rgb(image_bgr), caption="Aperçu", width=450)
+    st.image(bgr_vers_rgb(image_bgr), caption="Aperçu", width=300)
 
 _, col_bouton = st.columns([3, 2])
 with col_bouton:
