@@ -1,0 +1,26 @@
+# Artefacts de compilation LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs et images generees pendant le developpement / les tests (pas le jeu de donnees livre)
+code/streamlit.log
+images/diagnostic/
+images/televerses/
+
+# Documents hors perimetre de ce projet (autre cours, ou PDF tiers sous droits d'auteur)
+Rapport_temp.pdf
+Rapport_Theme5_Architectures_Apprentissage_Profond.tex
+Untitled.pdf
+ilide.info-belghini-pr_*.pdf
+reconnaissance motifs 2026.pdf

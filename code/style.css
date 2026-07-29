@@ -1,0 +1,113 @@
+/* Reprise fidele de plaques_maquette.html : meme palette, meme largeur de
+   page (900px centree), meme en-tete plein cadre, memes cartes. */
+
+:root {
+    --marron-nuit:  #2c1a0e;
+    --marron-fonce: #5c3317;
+    --marron:       #8b4513;
+    --marron-moyen: #a0522d;
+    --marron-clair: #f5ede6;
+    --marron-bord:  #ddc9b8;
+    --blanc:        #ffffff;
+    --ardoise:      #6b5448;
+    --vert-ok:      #2d6a4f;
+    --fond:         #faf6f2;
+}
+
+html, body, [class*="css"] { color: var(--marron-nuit); font-size: 24px; }
+p, span, label, div { font-size: 1.15rem; }
+
+/* ---------- Largeur de page : pleine largeur ---------- */
+[data-testid="stAppViewContainer"] .main .block-container {
+    max-width: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2.2rem;
+    padding-bottom: 3.5rem;
+}
+
+/* ---------- En-tete plein cadre (deborde de la colonne centree) ---------- */
+.entete {
+    background: var(--marron-nuit);
+    color: var(--blanc);
+    padding: 16px 40px;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    width: 100vw;
+    margin-top: -2.2rem;
+    margin-bottom: 28px;
+}
+.entete h1 {
+    font-size: 34px;
+    font-weight: 600;
+    color: var(--blanc);
+    margin: 0;
+}
+
+h2, h3 { color: var(--marron-nuit); }
+
+/* ---------- Zone de televersement (.zone-upload) ---------- */
+[data-testid="stFileUploaderDropzone"] {
+    background: var(--blanc);
+    border: 1.5px dashed var(--marron-bord);
+    border-radius: 8px;
+}
+[data-testid="stFileUploaderDropzone"]:hover {
+    border-color: var(--marron);
+    background: var(--marron-clair);
+}
+
+/* ---------- Cartes des etapes (.etape-img) ---------- */
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    border-color: var(--marron-bord) !important;
+    border-radius: 6px !important;
+}
+[data-testid="stImage"] img { border-radius: 5px 5px 0 0; }
+.legende-etape { font-size: 22px; color: var(--ardoise); padding-top: 6px; }
+
+/* ---------- Bouton (.btn-lancer) ---------- */
+button[kind="primary"] {
+    background-color: var(--marron-fonce);
+    border-color: var(--marron-fonce);
+    border-radius: 7px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+button[kind="primary"]:hover {
+    background-color: var(--marron-nuit);
+    border-color: var(--marron-nuit);
+}
+
+/* ---------- Carte de resultat (.carte-resultat) ---------- */
+.carte-resultat {
+    background: var(--blanc);
+    border: 1px solid var(--marron-bord);
+    border-radius: 8px;
+    padding: 24px 28px;
+}
+.resultat-label {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--ardoise);
+    margin-bottom: 12px;
+}
+.plaque-lue {
+    font-family: "Courier New", monospace;
+    font-size: 72px;
+    font-weight: 700;
+    color: var(--marron-fonce);
+    letter-spacing: 7px;
+}
+.plaque-lue.vide { color: var(--marron-bord); font-size: 30px; letter-spacing: 1px; }
+
+.statut-discret {
+    font-size: 20px;
+    color: var(--ardoise);
+    margin-top: 14px;
+}
+
+hr { border: none; border-top: 1px solid var(--marron-bord); margin: 1.4rem 0; }
+
+[data-testid="stMetricValue"] { color: var(--marron-fonce); }

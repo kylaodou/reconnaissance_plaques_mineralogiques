@@ -1,0 +1,7 @@
+image,verite_terrain,plaque_localisee,methode_binarisation,nb_caracteres_segmentes,deux_lignes_detectees,deux_lignes_reference,texte_principal,similarite_principal
+plate1_passenger.jpg,11GJ7819IT,False,adaptatif,10,True,True,11GJ7819IT,1.00
+plate2_commercial.jpg,11E1515,True,otsu_inverse,10,False,False,11IE1ET1IT,0.29
+plate3_police.jpg,PN0020,True,adaptatif,8,False,False,4INI311I,0.00
+plate4_gendarmerie.jpg,20304EMGN,False,otsu_inverse,9,False,False,20304EMGN,1.00
+plate5_kennzeichen301.jpg,9456D709,True,otsu,7,False,False,9488D09,0.62
+plate6_kennzeichen.jpg,11GK1844,True,otsu,8,False,False,11GK1844,1.00
