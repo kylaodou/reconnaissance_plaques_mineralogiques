@@ -8,16 +8,12 @@ Chaîne complète de reconnaissance de plaques d'immatriculation burkinabè : pr
 
 - `code/anpr_pipeline.py` — la chaîne de traitement complète.
 - `code/app.py` — interface web interactive (Streamlit).
-- `images/plaques_bf/` — jeu de test documentaire (6 plaques burkinabè).
 - `images/gabarits/` — base de gabarits de caractères réels utilisée pour la reconnaissance.
-- `images/resultats/` — figures et résultats chiffrés (CSV) sur les deux jeux de test.
-- `images/captures_app/` — captures d'écran de l'application.
-- `Rapport_Reconnaissance_Plaques_Mineralogiques.pdf` — rapport complet (méthodologie, implémentation, résultats, discussion).
 
 ## Lancer l'application
 
 ```bash
 cd code
-pip install opencv-python numpy streamlit
+pip install -r requirements.txt
 streamlit run app.py
 ```

@@ -1,7 +1,0 @@
-fichier,verite,reconnu,similarite,localisee
-plate1_passenger.jpg,11GJ7819IT,11GJ7819IT,1.00,False
-plate2_commercial.jpg,11E1515,11E1818,0.71,True
-plate3_police.jpg,PN0020,IN00I0,0.67,False
-plate4_gendarmerie.jpg,20304EMGN,20304EMGN,1.00,False
-plate5_kennzeichen301.jpg,9456D709,9488D09,0.62,True
-plate6_kennzeichen.jpg,11GK1844,11GK1844,1.00,True

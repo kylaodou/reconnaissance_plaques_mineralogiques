@@ -24,3 +24,13 @@ Rapport_Theme5_Architectures_Apprentissage_Profond.tex
 Untitled.pdf
 ilide.info-belghini-pr_*.pdf
 reconnaissance motifs 2026.pdf
+
+# Depot de deploiement : uniquement le code + les gabarits necessaires a l'app,
+# pas le rapport ni les images qui ne servent qu'a le documenter
+*.pdf
+Rapport_Reconnaissance_Plaques_Mineralogiques.tex
+plaques_maquette.html
+images/plaques_bf/
+images/resultats/
+images/captures_app/
+images/circulation_ouagadougou.jpg
